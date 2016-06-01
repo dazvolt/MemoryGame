@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <title></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/jquery-ui-1.11.1.js"></script>
+    <script src="js/renderer.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <header class="header">
+    </header>
+    <!-- .header-->
+
+    <main class="content">
+        <div class="renderer" id="renderer">
+            <div class="map" id="map"></div>
+        </div>
+    </main>
+    <!-- .content -->
+    <div class="message" id="message"></div>
+    <div class="start" id="start">
+        <div>Choose difficulty:</div>
+        <div class="difficulty">
+            <div class="options">I'm bo-bo baby!</div>
+            <div class="options">Lets try harder</div>
+            <div class="options">Hurt me plenty</div>
+            <div class="options">Nightmare</div>
+            <div class="options">Insane</div>
+        </div>
+        <div class="time-attack">
+            <label for="timeattack">Enable time attack?</label><input id="timeattack" type="checkbox" />
+        </div>
+    </div>
+    <div class="scores">
+        <div class="title">Your best score:</div>
+        <div class="result"></div>
+    </div>
+    <div class="timebar"><span></span></div>
+    <footer class="footer">
+    </footer>
+    <!-- .footer -->
+
+</div>
+<!-- .wrapper -->
+
+</body>
+</html>
